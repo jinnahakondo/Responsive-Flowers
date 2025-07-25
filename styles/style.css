@@ -458,11 +458,13 @@ footer {
 
     /* ------ our plants section style start-------  */
     .card-container {
-        grid-template-columns: repeat(2, 171px);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .ad-to-card-btn {
-        padding: 19px 30px;
+        padding: 8px 22px;
+        width: 100%;
+        font-size: .8rem;
     }
 
     .card-title,
