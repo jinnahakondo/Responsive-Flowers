@@ -123,7 +123,7 @@ nav {
 
 .card-container {
     display: grid;
-    grid-template-columns: repeat(4, 270px);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -148,14 +148,17 @@ nav {
 }
 
 .ad-to-card-btn {
-    display: inline-block;
+    display: flex;
     text-decoration: none;
     font-size: 1rem;
-    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
     font-weight: 600;
     color: #fff;
     background-color: #E95A08;
-    padding: 19px 80px;
+    /* padding: 19px 80px; */
+    width: 100%;
+    height: 50px;
 }
 
 /* ------ our plants section style end-------  */
@@ -184,11 +187,21 @@ nav {
     position: absolute;
     top: -129px;
     right: -100px;
+    animation: spin 5s infinite linear;
 }
 
+/* -----animation------ */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
 
+    100% {
+        transform: rotate(360deg);
+    }
+}
 
-
+/* --------animation-------- */
 .plants-lover-title {
     font-size: 3.2rem;
     font-weight: 700;
