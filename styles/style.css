@@ -157,6 +157,105 @@ nav {
 /* ------ our plants section style end-------  */
 
 
+/* ------ our plants section style start-------  */
+.our-plants {
+    margin-bottom: 210px;
+}
+
+.our-plants-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.our-plants-p {
+    margin-bottom: 50px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 270px);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-title,
+.price {
+    font-size: 1.375rem;
+    font-weight: 500;
+    /* text-align: center; */
+    color: #111111;
+    padding: 10px 0;
+}
+
+.ad-to-card-btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    /* text-align: center; */
+    font-weight: 600;
+    color: #fff;
+    background-color: #E95A08;
+    padding: 19px 80px;
+}
+
+/* ------ our plants section style end-------  */
+
+
+
+/* -- --------- flower and plants lover section start ---------  -- */
+.plants-lover {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.plants-lover-img {
+    width: 100%;
+    position: relative;
+}
+
+.store-img {
+    width: 100%;
+}
+
+.badge {
+    width: 285px;
+    position: absolute;
+    top: -129px;
+    right: -100px;
+}
+
+
+
+
+.plants-lover-title {
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.plants-lover ul {}
+
+.plants-lover ul li {
+    margin-left: 27px;
+    margin-top: 20px;
+    line-height: 2.2rem;
+}
+
+/* -- --------- flower and plants lover section end------------  -- */
 
 
 
@@ -179,14 +278,17 @@ nav {
         margin: 0 auto;
     }
 
+    .m-b {
+        margin-bottom: 120px;
+    }
+
     /* -------common style end-------  */
 
     .navbar {
-        margin-bottom: 120px;
         margin-top: 30px;
     }
 
-    ul {
+    #nav-hide {
         display: none;
         /* for navbar hide */
     }
@@ -224,26 +326,8 @@ nav {
 
     }
 
-    /* ------ our plants section style start-------  */
-    .card-container {
-        grid-template-columns: repeat(2, 171px);
-    }
 
-    .ad-to-card-btn {
-        padding: 19px 30px;
-    }
-
-    .card-title,
-    .price {
-        font-size: 1.5rem;
-    }
-
-    .description {
-        font-size: 15px;
-    }
-
-    /* ------ our plants section style end-------  */
-
+}
 
     /* ------- responsive design end--------  */
 
