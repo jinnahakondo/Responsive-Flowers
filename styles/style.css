@@ -518,6 +518,10 @@ footer {
         font-size: 1rem;
     }
 
+    /* -- --------- latest Section end----------------- -- */
+
+
+    /* -- --------- join Section start----------------- -- */
     #join {
         height: 275px;
     }
@@ -544,8 +548,8 @@ footer {
         font-size: .8rem;
     }
 
+    /* -- --------- join Section end----------------- -- */
 
-    /* -- --------- latest Section end----------------- -- */
 
     /* footer  */
     .footer-content {
