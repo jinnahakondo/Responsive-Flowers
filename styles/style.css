@@ -123,7 +123,7 @@ nav {
 
 .card-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 270px);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -272,8 +272,8 @@ nav {
 
 .latest-content h4,
 a {
-    font-size: 20px;
-    font-weight: 20px;
+    font-size: 1rem;
+    font-weight: 600;
     font-family: "Noto Serif", serif;
     font-weight: 700;
 }
@@ -289,6 +289,7 @@ a {
 }
 
 .latest-img-over-text a {
+    font-size: .9rem;
     display: block;
     color: #fff;
     padding: 10px 0;
@@ -517,16 +518,8 @@ footer {
         ;
     }
 
-    .latest-img-over-text h4 {
-        font-size: 1.2rem;
-    }
-
-    .latest-img-over-text a {
-        font-size: 1rem;
-    }
-
     #zabo-title {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     #zabo-link {
