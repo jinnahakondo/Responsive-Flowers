@@ -206,9 +206,96 @@ nav {
 
 /* -- --------- flower and plants lover section end------------  -- */
 
+/* -- --------- Join Section Start--------------- --  */
+.join-img-container {
+    display: grid;
+    grid-template-areas:
+        "b z z"
+        "a z z"
+    ;
+    gap: 28px;
+}
+
+.join-img-container img {
+    border-radius: 22px;
+}
+
+.bloom-plant,
+.ana-plant,
+.zabo-plant {
+    position: relative;
+}
+
+.bloom-plant {
+    grid-area: b;
+}
+
+.ana-plant {
+    grid-area: a;
+}
+
+.zabo-plant {
+    grid-area: z;
+}
 
 
+/* -- --------- Join Section end----------------- --  */
 
+
+.join-content {
+    position: relative;
+}
+
+.join-content img {
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 22px;
+    width: 100%;
+}
+
+.join-content h4,
+a {
+    font-size: 20px;
+    font-weight: 20px;
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+}
+
+.join-img-over-text {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    right: 50%;
+    color: #fff;
+    transform: translate(50%, -50%);
+    text-align: center;
+}
+
+.join-img-over-text a {
+    display: block;
+    color: #fff;
+    padding: 10px 0;
+    font-weight: 600;
+
+}
+
+#zabo-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+#zabo-link {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
 
 /* ------- responsive design--------  */
 @media screen and (max-width:576px) {
@@ -312,6 +399,33 @@ nav {
 
     /* -- --------- flower and plants lover section end------------  -- */
 
+    /* -- --------- Join Section end----------------- -- */
+    /* -- --------- Join Section start----------------- -- */
+    .join-img-container {
+        grid-template-areas:
+            "b"
+            "a"
+            "z"
+        ;
+    }
+
+    .join-img-over-text h4 {
+        font-size: 1.2em;
+    }
+
+    .join-img-over-text a {
+        font-size: 1rem;
+    }
+
+    #zabo-title {
+        font-size: 1.2rem;
+    }
+
+    #zabo-link {
+        font-size: 1rem;
+    }
+
+    /* -- --------- Join Section end----------------- -- */
 
     /* ------- responsive design end--------  */
 
