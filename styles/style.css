@@ -206,8 +206,8 @@ nav {
 
 /* -- --------- flower and plants lover section end------------  -- */
 
-/* -- --------- Join Section Start--------------- --  */
-.join-img-container {
+/* -- --------- latest Section Start--------------- --  */
+.latest-img-container {
     display: grid;
     grid-template-areas:
         "b z z"
@@ -216,7 +216,7 @@ nav {
     gap: 28px;
 }
 
-.join-img-container img {
+.latest-img-container img {
     border-radius: 22px;
 }
 
@@ -239,14 +239,14 @@ nav {
 }
 
 
-/* -- --------- Join Section end----------------- --  */
+/* -- --------- latest Section end----------------- --  */
 
 
-.join-content {
+.latest-content {
     position: relative;
 }
 
-.join-content img {
+.latest-content img {
     width: 100%;
 }
 
@@ -261,7 +261,7 @@ nav {
     width: 100%;
 }
 
-.join-content h4,
+.latest-content h4,
 a {
     font-size: 20px;
     font-weight: 20px;
@@ -269,7 +269,7 @@ a {
     font-weight: 700;
 }
 
-.join-img-over-text {
+.latest-img-over-text {
     position: absolute;
     z-index: 1;
     top: 50%;
@@ -279,7 +279,7 @@ a {
     text-align: center;
 }
 
-.join-img-over-text a {
+.latest-img-over-text a {
     display: block;
     color: #fff;
     padding: 10px 0;
@@ -399,9 +399,9 @@ a {
 
     /* -- --------- flower and plants lover section end------------  -- */
 
-    /* -- --------- Join Section end----------------- -- */
-    /* -- --------- Join Section start----------------- -- */
-    .join-img-container {
+    /* -- --------- latest Section end----------------- -- */
+    /* -- --------- latest Section start----------------- -- */
+    .latest-img-container {
         grid-template-areas:
             "b"
             "a"
@@ -409,11 +409,11 @@ a {
         ;
     }
 
-    .join-img-over-text h4 {
+    .latest-img-over-text h4 {
         font-size: 1.2em;
     }
 
-    .join-img-over-text a {
+    .latest-img-over-text a {
         font-size: 1rem;
     }
 
@@ -425,7 +425,7 @@ a {
         font-size: 1rem;
     }
 
-    /* -- --------- Join Section end----------------- -- */
+    /* -- --------- latest Section end----------------- -- */
 
     /* ------- responsive design end--------  */
 
