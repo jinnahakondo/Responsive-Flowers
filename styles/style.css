@@ -322,7 +322,7 @@ a {
 
 
 input {
-    width: 50%;
+    width: 640px;
     height: 50px;
     padding: 15px 0 15px 20px;
 }
@@ -332,6 +332,7 @@ input {
     justify-content: center;
     align-items: center;
     height: 50px;
+    width: 180px;
     padding: 0 10px;
     margin-bottom: 0px;
     background-color: #E95A08;
@@ -347,9 +348,48 @@ input {
 }
 
 /* -- --------- Join the colorful Bunch end----------------- -- */
+/* ------- footer section -------- */
+footer {
+    margin-bottom: 50px;
+}
 
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 110px;
+}
 
+.footer-links a {
+    display: block;
+    text-decoration: none;
+    color: var(--primary-clr);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 32px;
+    font-family: "Inter", sans-serif;
 
+}
+
+.footer-logo {
+    width: 30%;
+}
+
+.footer-logo img {
+    margin-bottom: 20px;
+}
+
+#icon img {
+    width: 36px;
+    height: 36px;
+}
+
+#icon {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 24px;
+}
 
 /* ------- responsive design--------  */
 @media screen and (max-width:576px) {
@@ -491,11 +531,33 @@ input {
     }
 
     #join .btn {
-        height: 30px;
-        border: 0px;
+        width: 30%;
     }
 
+    input {
+        width: 70%;
+    }
+
+    #join .btn {
+        height: 30px;
+        border: 0px;
+        font-size: .8rem;
+    }
+
+
     /* -- --------- latest Section end----------------- -- */
+
+    /* footer  */
+    .footer-content {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .footer-logo {
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
 
     /* ------- responsive design end--------  */
 
